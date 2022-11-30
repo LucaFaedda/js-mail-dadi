@@ -21,11 +21,9 @@ invia.addEventListener('click', function(){
     }
     
     if(flag == true){
-        console.log("email in lista")
         document.getElementById('risultato').innerText = "Email in lista"
     }
     else{
-        console.log("email non presente")
         document.getElementById('risultato').innerText = "Email non lista"
     }
 })
