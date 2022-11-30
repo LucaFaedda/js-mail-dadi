@@ -5,7 +5,9 @@ const invia = document.getElementById('invia')
 
 invia.addEventListener('click', function(){
     
-    let email_utente = document.getElementById('email')
+    let email_utente = document.getElementById('email').value
+
+    // ricordarsi SEMPRE .value
     
     
     let flag = false; // ci serve per determinare se l'elemento è in lista avendo solo un risultato 
@@ -18,7 +20,7 @@ invia.addEventListener('click', function(){
     
     }
     
-    if(flag == true ){
+    if(flag == true){
         console.log("email in lista")
         document.getElementById('risultato').innerText = "Email in lista"
     }
