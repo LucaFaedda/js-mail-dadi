@@ -1,11 +1,11 @@
 
 let num_player = Math.floor(Math.random()* 6) + 1
 
-console.log(num_player)
+console.log(`numero:giocatore: ${num_player}`)
 
 let num_pc = Math.floor(Math.random()* 6) + 1
 
-console.log(num_pc)
+console.log(`numero:giocatore: ${num_pc}`)
 
 
 if(num_player ==  num_pc){
