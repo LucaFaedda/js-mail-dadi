@@ -1,16 +1,20 @@
 
-let numero_1 = Math.floor(Math.random()* 6) + 1
+let num_player = Math.floor(Math.random()* 6) + 1
 
-//console.log(numero_1)
+console.log(num_player)
 
-let numero_2 = Math.floor(Math.random()* 6) + 1
+let num_pc = Math.floor(Math.random()* 6) + 1
 
-//console.log(numero_2)
+console.log(num_pc)
 
 
-if(numero_1 < numero_2){
-    console.log("HAI perso")
+if(num_player ==  num_pc){
+    console.log("Rilancia")
 }
-else{
-    console.log("HAI vinto")
+else if(num_player > num_pc){
+    console.log("Giocatore HAI vinto")
 }
+else {
+    console.log("Giocatore HAI perso")
+}
+
