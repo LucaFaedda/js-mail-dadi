@@ -3,12 +3,19 @@ const email = ["goku@gmail.com", "bonjy91@gmail.com", "neoinmatrix@hotmail.it", 
 
 let email_utente = prompt("Inserisci la tua email")
 
+let flag = false;
 
 for(i=0 ; i< email.length ; i++){
-    if(i == email_utente){
-        console.log(`email in lista ${i}`)
+    if(email[i] == email_utente){
+        flag = true
+        
     }
-    else{
-        console.log(`email non in lista ${i}`)
-    }
+
+}
+
+if(flag == true ){
+    console.log("email in lista")
+}
+else{
+    console.log("email non presente")
 }
