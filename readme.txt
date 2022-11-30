@@ -19,3 +19,9 @@ RISOLUZIONE PROBLEMA Mail
 2 - creiamo una variabile false
 3 - costruiamo un ciclo for che vada mano a mano a controllare se il nome inserito dal'utente c'è 
 4 - stampiamo il messaggio
+
+RISOLUZIONE PROBLEMA dadi
+
+1 - creaiamo una variabile numero1 che va da 1 a 6 in modo randomico  con math
+2 - creaiamo una variabile numero2 che va da 1 a 6 in modo randomico  con math
+3 - confrontiamo le due variabili con if
